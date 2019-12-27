@@ -27,6 +27,15 @@ a.muted-link, a.muted-link:active, a.muted-link:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#show-head-count {
+	margin-top: 20px;
+}
+
+input.number-person {
+	width: 4em;
+}
+
 .btn-default {
 	width: 110px;
 	height: 110px;
