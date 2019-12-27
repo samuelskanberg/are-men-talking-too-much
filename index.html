@@ -125,7 +125,7 @@ title: Are men talking too much?
               var number_dudes = parseInt($('#number-dudes').val());
               var number_non_dudes = parseInt($('#number-non-dudes').val());
               var rel_pct = parseInt((d_tot/number_dudes) / ((d_tot/number_dudes) + (l_tot/number_non_dudes)) * 100, 10);
-              relative_percentage_info = '<div class="rel-pct-div"><span id="rel-pct">' + rel_pct + '</span>% men relative</div>';
+              relative_percentage_info = '<div class="rel-pct-div"><span id="rel-pct">(' + rel_pct + '</span>% men relative)</div>';
           }
           $ans.html('<div class="all-percentages">'+percentage_info+relative_percentage_info+'</div>');
       }
